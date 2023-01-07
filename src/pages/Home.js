@@ -1,10 +1,11 @@
+import BlindWhack from "../components/BlindWhack"
 
 
 const Home = ()=>{
 
     return(
         <div>
-            Home Page
+           home page
         </div>
 
     )

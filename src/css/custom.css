@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.app {
+  background-color: dimgray;
+  height: 100vh;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
