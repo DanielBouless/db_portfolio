@@ -8,11 +8,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import './css/custom.css'
 import StartPage from "./pages/StartPage";
+import AccessProvider from "./context/annoying_captcha_success";
 
 function App() {
   return (
-    <div className="app">
+    <AccessProvider>
       <NavigationBar />
+    <div className="app">
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<StartPage />} />
@@ -23,6 +25,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
+    </AccessProvider>
   );
 }
 

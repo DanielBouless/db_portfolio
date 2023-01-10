@@ -1,7 +1,22 @@
 .app {
     background-color: dimgray;
-    height: 100vh
+    height: 100%
 }
 
+.page{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.about-card{
+    margin-top: 20;
+    width: 450;
+    height: "fit-content";
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+        background-color: dimgray;
+            height: 100%
+}

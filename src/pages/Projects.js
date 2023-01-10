@@ -1,5 +1,12 @@
+import Container from "react-bootstrap/esm/Container";
+
+
 const Projects = () => {
-  return <div>Projects Page</div>;
+
+
+  return (
+  <Container className="page">Projects Page</Container>
+  );
 };
 
 export default Projects;
